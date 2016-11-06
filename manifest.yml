@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: tabd2restfull
+  host: tabd2restfull
+  disk_quota: 1024M
